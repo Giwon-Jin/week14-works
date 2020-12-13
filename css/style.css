@@ -1,0 +1,300 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  margin: 0%;
+  height: 100%;
+  opacity: 100%;
+  background-color: black;
+}
+
+
+@keyframes draw {
+  to {
+
+       stroke-dashoffset: 0;
+  }
+}
+
+
+.st0 {
+  animation-name: draw;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count :infinite;
+  animation-direction: alternate;
+}
+
+.st1 {
+  animation-name: draw;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count :infinite;
+  animation-direction: alternate;
+}
+
+.st2 {
+  animation-name: draw;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count :infinite;
+  animation-direction: alternate;
+}
+
+.st3 {
+  animation-name: draw;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count :infinite;
+  animation-direction: alternate;
+}
+
+.st4 {
+  animation-name: draw;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count :infinite;
+  animation-direction: alternate;
+}
+
+.st5 {
+  animation-name: draw;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count :infinite;
+  animation-direction: alternate;
+}
+ 
+
+ .st6 {
+  animation-name: draw;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count :infinite;
+  animation-direction: alternate;
+}
+ 
+
+ .st7 {
+  animation-name: draw;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count :infinite;
+  animation-direction: alternate;
+}
+ 
+
+ .st8 {
+  animation-name: draw;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count :infinite;
+  animation-direction: alternate;
+}
+
+ .st9 {
+  animation-name: draw;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count :infinite;
+  animation-direction: alternate;
+}
+
+ .st10 {
+  animation-name: draw;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count :infinite;
+  animation-direction: alternate;
+}
+
+ .st11 {
+  animation-name: draw;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count :infinite;
+  animation-direction: alternate;
+}
+
+ .st12 {
+  animation-name: draw;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count :infinite;
+  animation-direction: alternate;
+}
+
+ .st13 {
+  animation-name: draw;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count :infinite;
+  animation-direction: alternate;
+}
+ 
+ 
+
+/***** 화이트 배경 *****/
+
+.title {
+  position: absolute;
+  top: 7%;
+  left: 1%;
+  width: 25%;
+  opacity: 100%;
+  display: inline-block;
+  }
+
+  .sub_01 {
+  position: absolute;
+  top: 26.5%;
+  left: 1%;
+  width: 25%;
+  opacity: 100%;
+  display: inline-block;
+  }
+
+ .sub_02 {
+  position: absolute;
+  top: 72%;
+  left: 1%;
+  width: 25%;
+  opacity: 100%;
+  display: inline-block;
+  }
+
+  .sub_03 {
+  position: absolute;
+  top: 83%;
+  left: 1%;
+  width: 25%;
+  opacity: 100%;
+  display: inline-block;
+  }
+
+  .sub_04 {
+  position: absolute;
+  top: 2%;
+  left: 60%;
+  width: 40%;
+  opacity: 100%;
+  display: inline-block;
+  }
+
+  .sub_05 {
+  position: absolute;
+  top: 10%;
+  left: 59%;
+  width: 40%;
+  opacity: 100%;
+  display: inline-block;
+  }
+
+  .yvd {
+  background-image: url('../img/yvd_W.png');
+  position: absolute;
+  top: 30%;
+  left: 34%;
+  width: 33%;
+  height: 42%;
+  opacity: 50%;
+  background-size: cover;
+  display: block;
+  }
+
+   .yvd:hover {
+  position: absolute;
+  top: 30%;
+  left: 34%;
+  width: 33%;
+  opacity: 100%;
+  display: inline-block;
+  transition: all ease-in-out 0.5s;
+  }
+
+
+/***** 블랙 모눈 배경 *****/
+
+.background {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  opacity: 100%;
+  display: inline-block;
+  transition: all ease-in-out 0.5s;
+  }
+
+  .title_B {
+  position: absolute;
+  top: 7%;
+  left: 1%;
+  width: 25%;
+  opacity: 100%;
+  display: none;
+  }
+
+  .sub_01_B {
+  position: absolute;
+  top: 26.5%;
+  left: 1%;
+  width: 25%;
+  opacity: 100%;
+  display: none;
+  }
+
+ .sub_02_B {
+  position: absolute;
+  top: 72%;
+  left: 1%;
+  width: 25%;
+  opacity: 100%;
+  display: none;
+  }
+
+  .sub_03_B {
+  position: absolute;
+  top: 83%;
+  left: 1%;
+  width: 25%;
+  opacity: 100%;
+  display: none;
+  }
+
+  .sub_04_B {
+  position: absolute;
+  top: 2%;
+  left: 60%;
+  width: 40%;
+  opacity: 100%;
+  display: none;
+  }
+
+  .sub_05_B {
+  position: absolute;
+  top: 10%;
+  left: 59%;
+  width: 40%;
+  opacity: 100%;
+  display: none;
+  }
+
+  .yvd_B {
+  background-image: url('../img/yvd_B.png');
+  position: absolute;
+  top: 30%;
+  left: 34%;
+  width: 33%;
+  height: 42%;
+  opacity: 100%;
+  background-size: cover;
+  display: none;
+  }
+
+
+
+
+ 
